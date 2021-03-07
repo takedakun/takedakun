@@ -1,1 +1,207 @@
-aa
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Ryoto Takeda</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .main_title {
+      font-family: 'Yusei Magic', sans-serif;
+    }
+
+    .main_setsumei {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .sub_font {
+      font-family: 'Reggae One', cursive;
+    }
+
+    .bg-color-water {
+      background-color:#E2F3FE;
+    }
+
+    .bg-color-pink {
+      background-color:#FDEDFF;
+    }
+
+    .bg-color-gray {
+      background-color:#E6EBF7;
+    }
+
+    .bg-color-green {
+      background-color:#E1FAF1;
+    }
+
+    .bg-color-yellow {
+      background-color:#FFF9DE;
+    }
+
+    .bg-color-purple {
+      background-color:#EDEBFF;
+    }
+
+  </style>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Reggae+One&family=Yusei+Magic&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light main_title">タケダ家の物置部屋</h1>
+          <p class="lead text-muted main_setsumei">無計画な作者に作られ無造作に飾られた作品たち</p>
+          <p>
+            <a href="#profile" class="btn btn-primary my-2 mx-1 main_setsumei">家主</a>
+            <a href="#works" class="btn btn-secondary my-2 mx-1 main_setsumei">作品たち</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="py-5 bg-light" id="profile">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-1"></div>
+          <div class="col-md-6 text-center">
+            <img style="max-width: 70%;" src="takeda.png">
+          </div>
+
+          <div class="col-md-5 main_setsumei" style="font-size: 1.0em">
+            <p>
+              <b class="main_title">家主</b>： タケダ。
+            </p>
+            <p>
+              <b class="main_title">素性</b>：平成8年生まれの大学院生。
+            </p>
+            <p>
+              <b class="main_title">職業</b>：エンジニアやってます。好きな言語はRust。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="album py-5" id="works">
+      <div class="container w-75 h-100 p-3">
+
+        <div class="row">
+          <div class="col-md-4" onclick="location.href='./amekochan.html';" style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-water">
+              <video width="100%" loop autoplay muted>
+                <source src="ameko_thumb.mp4" type="video/mp4">
+              </video>
+
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">雨子ちゃん</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  乾いた大地を水浸しにするゲーム。
+                  </br>Rust/Amethyst
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" onclick="location.href='./conquest.html';" style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-pink">
+              <video width="100%" loop autoplay muted>
+                <source src="conquest_thumb.mp4" type="video/mp4">
+              </video>
+
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">Conquest</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  ターン制の戦略ゲーム。
+                  </br>Rust/Amethyst
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" onclick="location.href='./star_battle.html';" style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-gray">
+              <video width="100%" loop autoplay muted>
+                <source src="star_thumb.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">StarBattle</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  オンライン宇宙船バトル。
+                  </br>Rust/JavaScript
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" onclick="location.href='https://takedakun.github.io/beadsArtify/';" style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-green">
+              <video width="100%" loop autoplay muted>
+                <source src="beads_thumb.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">BeadsArtify</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  モザイクビーズアート自動生成。
+                  </br>JavaScript
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" onclick="location.href='./madori_search.html';" style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-purple">
+              <video width="100%" loop autoplay muted>
+                <source src="whisp_thumb.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">間取りSearch</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  不動産間取り検索システム。
+                  </br>Flask/React
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" onclick="location.href='https://qiita.com/takeryo_dayo/items/f7d1e0d2546e7e10f6b9';"
+            style="cursor: pointer;">
+            <div class="card mb-4 shadow bg-color-yellow">
+              <img width="100%" src="whisp_thumb.png">
+              <div class="card-body">
+                <h3 class="text-center main_title pt-2">Whisp</h3>
+                <p class="card-text text-center text-muted main_setsumei">
+                  閲覧者選択可能SNS。
+                  </br>Ruby on Rails
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </main>
+
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
